@@ -56,7 +56,7 @@ Common issues that users encounter such as if port is closed, check firewall set
 
 _LDAP is not supported in Leantime with versions earlier than v2.1.9._
 
-Leantime supports basic LDAP integration via configuration of the environament variables. Follow the porcess below to setup LDAP:
+Leantime supports basic LDAP integration via configuration of the environament variables. Follow the process below to setup LDAP:
 
 Navigate to the `config/.env` file and update the following settings:
 
@@ -173,7 +173,7 @@ LEAN_LANGUAGE='en-US'                            # Default language
 LEAN_DEFAULT_TIMEZONE='America/Los_Angeles'      # Set default timezone
 ```
 
-## OpenID-Conenct (OIDC) Configuration
+## OpenID-Connect (OIDC) Configuration
 
 You can connect Leantime to a OIDC provider of your choice. The reference implementation is Authentik, but any compliant provider which implements x5c certificates should work.
 
